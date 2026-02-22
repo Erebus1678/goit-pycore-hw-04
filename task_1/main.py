@@ -1,6 +1,7 @@
 from pathlib import Path
+from typing import Tuple
 
-def total_salary(path: str|Path)->tuple[int, float]:
+def total_salary(path: str| Path) -> Tuple[int, float]:
 
         with open(path, 'r', encoding='utf-8') as file:
             total = 0
